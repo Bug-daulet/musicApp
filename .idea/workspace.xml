@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f5f516d9-762a-4468-84fd-471c69c7875a" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="bug-daulet-conflicts" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="C:\Users\HP Omen 15\PycharmProjects\musicApp\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectId" id="1qxpp6XU94HKp78FIzHNVe7aJcf" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="sqlite" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/musicApp/manage.py" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.build" />
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+    <option name="showServicesTree" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f5f516d9-762a-4468-84fd-471c69c7875a" name="Default Changelist" comment="" />
+      <created>1618031274813</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1618031274813</updated>
+      <workItem from="1618031277300" duration="598000" />
+      <workItem from="1618031888875" duration="5424000" />
+      <workItem from="1618727270859" duration="9358000" />
+      <workItem from="1619081778460" duration="2903000" />
+      <workItem from="1619326594257" duration="1278000" />
+      <workItem from="1619502936763" duration="7458000" />
+      <workItem from="1619515228525" duration="359000" />
+      <workItem from="1619515601095" duration="2381000" />
+      <workItem from="1619518002040" duration="574000" />
+      <workItem from="1619518611563" duration="1431000" />
+    </task>
+    <task id="LOCAL-00001" summary="started project">
+      <created>1618033397081</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1618033397081</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Worked on login part with using built-in User model">
+      <created>1618747142792</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1618747142793</updated>
+    </task>
+    <task id="LOCAL-00003" summary="User model. Login and registration incomplete.">
+      <created>1619509950882</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1619509950882</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Resolving conflicts">
+      <created>1619518781175</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1619518781175</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Resolving conflicts">
+      <created>1619519411400</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1619519411400</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Resolving conflicts">
+      <created>1619519721523</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1619519721524</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="started project" />
+    <MESSAGE value="Worked on login part with using built-in User model" />
+    <MESSAGE value="User model. Login and registration incomplete." />
+    <MESSAGE value="Resolving conflicts" />
+    <option name="LAST_COMMIT_MESSAGE" value="Resolving conflicts" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="223" y="72" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1619515549327">
+      <screen x="0" y="0" width="1536" height="832" />
+    </state>
+    <state x="223" y="72" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.832@0.0.1536.832" timestamp="1619515549327" />
+    <state x="526" y="220" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1619507828741">
+      <screen x="0" y="0" width="1536" height="832" />
+    </state>
+    <state x="526" y="220" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.832@0.0.1536.832" timestamp="1619507828741" />
+    <state x="392" y="11" key="CommitChangelistDialog2" timestamp="1619520049553">
+      <screen x="0" y="0" width="1536" height="832" />
+    </state>
+    <state x="392" y="11" key="CommitChangelistDialog2/0.0.1536.832@0.0.1536.832" timestamp="1619520049553" />
+    <state x="503" y="179" key="EnvironmentVariablesDialog" timestamp="1618032841324">
+      <screen x="0" y="0" width="1536" height="832" />
+    </state>
+    <state x="503" y="179" key="EnvironmentVariablesDialog/0.0.1536.832@0.0.1536.832" timestamp="1618032841324" />
+    <state x="548" y="172" key="FileChooserDialogImpl" timestamp="1618033173993">
+      <screen x="0" y="0" width="1536" height="832" />
+    </state>
+    <state x="548" y="172" key="FileChooserDialogImpl/0.0.1536.832@0.0.1536.832" timestamp="1618033173993" />
+    <state width="1493" height="213" key="GridCell.Tab.0.bottom" timestamp="1619510405553">
+      <screen x="0" y="0" width="1536" height="832" />
+    </state>
+    <state width="1493" height="213" key="GridCell.Tab.0.bottom/0.0.1536.832@0.0.1536.832" timestamp="1619510405553" />
+    <state width="1493" height="213" key="GridCell.Tab.0.center" timestamp="1619510405553">
+      <screen x="0" y="0" width="1536" height="832" />
+    </state>
+    <state width="1493" height="213" key="GridCell.Tab.0.center/0.0.1536.832@0.0.1536.832" timestamp="1619510405553" />
+    <state width="1493" height="213" key="GridCell.Tab.0.left" timestamp="1619510405553">
+      <screen x="0" y="0" width="1536" height="832" />
+    </state>
+    <state width="1493" height="213" key="GridCell.Tab.0.left/0.0.1536.832@0.0.1536.832" timestamp="1619510405553" />
+    <state width="1493" height="213" key="GridCell.Tab.0.right" timestamp="1619510405553">
+      <screen x="0" y="0" width="1536" height="832" />
+    </state>
+    <state width="1493" height="213" key="GridCell.Tab.0.right/0.0.1536.832@0.0.1536.832" timestamp="1619510405553" />
+    <state width="189" height="457" key="HiddenNamespacesPopup" timestamp="1619507837127">
+      <screen x="0" y="0" width="1536" height="832" />
+    </state>
+    <state width="189" height="457" key="HiddenNamespacesPopup/0.0.1536.832@0.0.1536.832" timestamp="1619507837127" />
+    <state x="147" y="72" key="MergeDialog" timestamp="1619519336664">
+      <screen x="0" y="0" width="1536" height="832" />
+    </state>
+    <state x="147" y="72" key="MergeDialog/0.0.1536.832@0.0.1536.832" timestamp="1619519336664" />
+    <state x="481" y="133" key="MultipleFileMergeDialog" timestamp="1619519352314">
+      <screen x="0" y="0" width="1536" height="832" />
+    </state>
+    <state x="481" y="133" key="MultipleFileMergeDialog/0.0.1536.832@0.0.1536.832" timestamp="1619519352314" />
+    <state x="277" y="59" key="SettingsEditor" timestamp="1619515546357">
+      <screen x="0" y="0" width="1536" height="832" />
+    </state>
+    <state x="277" y="59" key="SettingsEditor/0.0.1536.832@0.0.1536.832" timestamp="1619515546357" />
+    <state x="361" y="150" key="Vcs.Push.Dialog.v2" timestamp="1619519727615">
+      <screen x="0" y="0" width="1536" height="832" />
+    </state>
+    <state x="361" y="150" key="Vcs.Push.Dialog.v2/0.0.1536.832@0.0.1536.832" timestamp="1619519727615" />
+    <state x="93" y="93" width="1350" height="646" key="com.intellij.dvcs.ui.CompareBranchesDialog" timestamp="1619519710617">
+      <screen x="0" y="0" width="1536" height="832" />
+    </state>
+    <state x="93" y="93" width="1350" height="646" key="com.intellij.dvcs.ui.CompareBranchesDialog/0.0.1536.832@0.0.1536.832" timestamp="1619519710617" />
+    <state x="578" y="334" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1619519094792">
+      <screen x="0" y="0" width="1536" height="832" />
+    </state>
+    <state x="578" y="334" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.832@0.0.1536.832" timestamp="1619519094792" />
+    <state x="572" y="331" key="git4idea.rebase.GitUnstructuredEditor" timestamp="1619519209092">
+      <screen x="0" y="0" width="1536" height="832" />
+    </state>
+    <state x="572" y="331" key="git4idea.rebase.GitUnstructuredEditor/0.0.1536.832@0.0.1536.832" timestamp="1619519209092" />
+    <state x="410" y="143" width="700" height="530" key="recent.locations.popup" timestamp="1619508218888">
+      <screen x="0" y="0" width="1536" height="832" />
+    </state>
+    <state x="410" y="143" width="700" height="530" key="recent.locations.popup/0.0.1536.832@0.0.1536.832" timestamp="1619508218888" />
+  </component>
+</project>
