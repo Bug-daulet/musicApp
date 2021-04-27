@@ -1,3 +1,9 @@
+from django.contrib.auth.models import AbstractUser
 from django.db import models
 
-# Create your models here.
+
+class UserManage(AbstractUser):
+    user_img = models.ImageField(upload_to='users_img/', default='NULL')
+
+    def __str__(self):
+        return self.username
