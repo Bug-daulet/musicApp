@@ -132,6 +132,6 @@ def search_success(request, text):
     if len(text)>0:
         search_res = Song.objects.filter(name__search=text, singer__search=text)
         return render(request, "musicapp/search.html",
-                {"search_res":search_res,"empty_res":"There is no article"} )
+                {"search_res":search_res,"empty_res":"There is no such song"} )
 
 
