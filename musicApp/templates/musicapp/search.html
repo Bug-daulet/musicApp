@@ -1,19 +1,19 @@
-{#{% extends "news/layout.html"%}#}
-{##}
-{#{% block content %}#}
-{#  {% if search_res %}#}
-{#  <br>#}
-{#    {% for article in search_res%}#}
-{#      <ol>#}
-{#        <li value="{{forloop.counter}}">#}
-{#          <a href="{% url 'news:get_article_by_id' article.id %}">#}
-{#          <p>{{article.article_heading}}</p>#}
-{#        </a>#}
-{#        {{article.article_text|truncatewords:10}}#}
-{#        </li>#}
-{#      </ol>#}
-{#      {%endfor%}#}
-{#    {% else %}#}
-{#      {{empty_res}}#}
-{#    {% endif %}#}
-{#{% endblock%}#}
+{{% block content %}#}
+{  {% if search_res %}#}
+{  <br>#}
+{    {% for song in search_res%}#}
+{      <ol>#}
+{        <li value="{{forloop.counter}}">#}
+{          <a href="{% url 'musicApp:detail' song.id %}">#}
+{           <p>{{song.name}}</p>#}
+{          </a>#}
+{           <p>{{song.album}}</p>#}
+{           <p>{{ song.genre }}</p>#}
+{           <p>{{ song.singer }}</p>#}
+{        </li>#}
+{      </ol>#}
+{      {%endfor%}#}
+{    {% else %}#}
+{      {{empty_res}}#}
+{    {% endif %}#}
+{{% endblock%}#}
