@@ -1,7 +1,138 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f5f516d9-762a-4468-84fd-471c69c7875a" name="Default Changelist" comment="" />
+    <list default="true" id="05956ac9-7a52-4193-ba0d-b35d46503f72" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/musicApp.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicApp/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicApp/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicApp/authentication/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicApp/authentication/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicApp/authentication/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicApp/authentication/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicApp/authentication/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicApp/authentication/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicApp/media/01_-_Baarish_-_Half_Girlfriend_DJMaza.Life.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicApp/media/01_-_Gulaabo-MyMp3Singer.net.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicApp/media/01_-_Soch_Na_Sake_Duet-MyMp3Singer.com.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicApp/media/Aaj_Se_Teri_Padman_128_Kbps.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicApp/media/Asal_Mein_-_Darshan_Raval_128_Kbps.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicApp/media/Attention_-_Charlie_Puth.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicApp/media/Baarish.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicApp/media/Bekhayali_-_Kabir_Singh_128_Kbps.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicApp/media/Coldplay_-_A_Sky_Full_Of_Stars.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicApp/media/DJ_Snake_-_Let_Me_Love_You_ft._Justin_Bieber_Official_Video.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicApp/media/Gryffin_-_Tie_Me_Down_ft._Elley_Duhé.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicApp/media/Guru_Randhawa_-_Ban_Ja_Tu_Meri_Rani.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicApp/media/Haaye_Oye_-_amlijatt.in.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicApp/media/Lauv_-_I_Like_Me_Better.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicApp/media/Maroon_5_-_Girls_Like_You_ft._Cardi_B.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicApp/media/Mike_Perry_-_The_Ocean_ft._Shy_Martin_CC.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicApp/media/Songs.PK_08_-_Kabira_-_Yeh_Jawaani_Hai_Deewani.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicApp/media/Sun_Saathiya.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicApp/media/Tujhe_Kitna_Chahne_Lage_-_Kabir_Singh_128_Kbps.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicApp/media/aajseteri.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicApp/media/asalmein.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicApp/media/attention.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicApp/media/banjarani.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicApp/media/bekhayali.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicApp/media/ed-sheeran_shape-of-you.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicApp/media/ed-sheeran_shape-of-you_RKCQGes.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicApp/media/favicon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicApp/media/girlslikeyou.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicApp/media/gulaabo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicApp/media/guns-n-roses_november-rain.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicApp/media/guns-n-roses_november-rain_PMCQrTw.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicApp/media/haayeoye.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicApp/media/ilikemebetter.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicApp/media/img_dark_horse.jfif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicApp/media/img_dark_horse_avlEvUH.jfif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicApp/media/img_novemver_rain.jfif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicApp/media/img_novemver_rain_0DesUIj.jfif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicApp/media/img_shape_of_you.jfif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicApp/media/img_shape_of_you_D8pEWGw.jfif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicApp/media/kabira.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicApp/media/katy-perry-feat-juicy-j_dark-horse.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicApp/media/katy-perry-feat-juicy-j_dark-horse_nkaQByy.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicApp/media/letmeloveyou.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicApp/media/ocean.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicApp/media/skyfullofstars.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicApp/media/sochnasake.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicApp/media/sunsaathiya.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicApp/media/tiemedown.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicApp/media/tujhekitnachahnelagehum.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicApp/musicApp/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicApp/musicApp/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicApp/musicApp/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicApp/musicApp/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicApp/musicApp/migrations/0002_playlist.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicApp/musicApp/migrations/0003_favourite.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicApp/musicApp/migrations/0004_recent.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicApp/musicApp/migrations/0005_auto_20200712_1306.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicApp/musicApp/migrations/0006_auto_20210429_2335.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicApp/musicApp/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicApp/musicApp/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicApp/musicApp/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicApp/musicApp/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicApp/musicplayer/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicApp/musicplayer/settings1/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicApp/musicplayer/settings1/base.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicApp/musicplayer/settings1/developement.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicApp/musicplayer/settings1/production.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicApp/musicplayer/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicApp/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicApp/static/musicapp/css/musicplayer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicApp/static/musicapp/fonts/proximanova-light-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicApp/static/musicapp/fonts/proximanova-regular-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicApp/static/musicapp/fonts/proximanova-semibold-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicApp/static/musicapp/images/bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicApp/static/musicapp/js/amplitude.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicApp/static/musicapp/js/wavesurfer.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicApp/templates/authentication/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicApp/templates/authentication/signup.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicApp/templates/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicApp/templates/musicapp/all_songs.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicApp/templates/musicapp/detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicApp/templates/musicapp/english_songs.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicApp/templates/musicapp/favourite.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicApp/templates/musicapp/hindi_songs.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicApp/templates/musicapp/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicApp/templates/musicapp/mymusic.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicApp/templates/musicapp/playlist.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicApp/templates/musicapp/playlist_songs.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicApp/templates/musicapp/pop.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicApp/templates/musicapp/recent.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicApp/templates/musicapp/rock.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicApp/templates/musicapp/search.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicApp/website_images/Detail.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicApp/website_images/Home.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/musicApp/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/musicApp/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/musicApp/mainapp/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/musicApp/authentication/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/musicApp/mainapp/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/musicApp/mainapp/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/musicApp/mainapp/forms.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/musicApp/mainapp/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/musicApp/mainapp/migrations/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/musicApp/authentication/migrations/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/musicApp/mainapp/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/musicApp/mainapp/templates/mainapp/base.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/musicApp/mainapp/templates/mainapp/layout.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/musicApp/mainapp/templates/mainapp/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/musicApp/mainapp/templates/registration/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/musicApp/mainapp/templates/registration/registration.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/musicApp/mainapp/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/musicApp/authentication/tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/musicApp/mainapp/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/musicApp/mainapp/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/musicApp/manage.py" beforeDir="false" afterPath="$PROJECT_DIR$/musicApp/manage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/musicApp/musicApp/asgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/musicApp/musicplayer/asgi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/musicApp/musicApp/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/musicApp/musicplayer/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/musicApp/musicApp/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/musicApp/musicApp/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/musicApp/musicApp/wsgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/musicApp/musicplayer/wsgi.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -66,8 +197,34 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/musicApp/manage.py" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.build" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/musicApp/musicplayer/settings.py" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.django.DjangoModulesConfigurable" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Unnamed" type="Python.DjangoServer" factoryName="Django server" nameIsGenerated="true">
+      <module name="musicApp" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="musicplayer.settings" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\HP Omen 15\AppData\Local\Programs\Python\Python38-32\python.exe" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -87,7 +244,7 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="f5f516d9-762a-4468-84fd-471c69c7875a" name="Default Changelist" comment="" />
+      <changelist id="05956ac9-7a52-4193-ba0d-b35d46503f72" name="Default Changelist" comment="" />
       <created>1618031274813</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -102,6 +259,7 @@
       <workItem from="1619515601095" duration="2381000" />
       <workItem from="1619518002040" duration="574000" />
       <workItem from="1619518611563" duration="1431000" />
+      <workItem from="1619718835864" duration="435000" />
     </task>
     <task id="LOCAL-00001" summary="started project">
       <created>1618033397081</created>
@@ -160,42 +318,42 @@
     <option name="LAST_COMMIT_MESSAGE" value="Resolving conflicts" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="223" y="72" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1619515549327">
+    <state x="223" y="72" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1619718901651">
       <screen x="0" y="0" width="1536" height="832" />
     </state>
-    <state x="223" y="72" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.832@0.0.1536.832" timestamp="1619515549327" />
+    <state x="223" y="72" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.832@0.0.1536.832" timestamp="1619718901651" />
     <state x="526" y="220" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1619507828741">
       <screen x="0" y="0" width="1536" height="832" />
     </state>
     <state x="526" y="220" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.832@0.0.1536.832" timestamp="1619507828741" />
-    <state x="392" y="11" key="CommitChangelistDialog2" timestamp="1619520049553">
+    <state x="392" y="11" key="CommitChangelistDialog2" timestamp="1619719301358">
       <screen x="0" y="0" width="1536" height="832" />
     </state>
-    <state x="392" y="11" key="CommitChangelistDialog2/0.0.1536.832@0.0.1536.832" timestamp="1619520049553" />
+    <state x="392" y="11" key="CommitChangelistDialog2/0.0.1536.832@0.0.1536.832" timestamp="1619719301358" />
     <state x="503" y="179" key="EnvironmentVariablesDialog" timestamp="1618032841324">
       <screen x="0" y="0" width="1536" height="832" />
     </state>
     <state x="503" y="179" key="EnvironmentVariablesDialog/0.0.1536.832@0.0.1536.832" timestamp="1618032841324" />
-    <state x="548" y="172" key="FileChooserDialogImpl" timestamp="1618033173993">
+    <state x="548" y="172" key="FileChooserDialogImpl" timestamp="1619719105567">
       <screen x="0" y="0" width="1536" height="832" />
     </state>
-    <state x="548" y="172" key="FileChooserDialogImpl/0.0.1536.832@0.0.1536.832" timestamp="1618033173993" />
-    <state width="1493" height="213" key="GridCell.Tab.0.bottom" timestamp="1619510405553">
+    <state x="548" y="172" key="FileChooserDialogImpl/0.0.1536.832@0.0.1536.832" timestamp="1619719105567" />
+    <state width="1493" height="213" key="GridCell.Tab.0.bottom" timestamp="1619719118503">
       <screen x="0" y="0" width="1536" height="832" />
     </state>
-    <state width="1493" height="213" key="GridCell.Tab.0.bottom/0.0.1536.832@0.0.1536.832" timestamp="1619510405553" />
-    <state width="1493" height="213" key="GridCell.Tab.0.center" timestamp="1619510405553">
+    <state width="1493" height="213" key="GridCell.Tab.0.bottom/0.0.1536.832@0.0.1536.832" timestamp="1619719118503" />
+    <state width="1493" height="213" key="GridCell.Tab.0.center" timestamp="1619719118503">
       <screen x="0" y="0" width="1536" height="832" />
     </state>
-    <state width="1493" height="213" key="GridCell.Tab.0.center/0.0.1536.832@0.0.1536.832" timestamp="1619510405553" />
-    <state width="1493" height="213" key="GridCell.Tab.0.left" timestamp="1619510405553">
+    <state width="1493" height="213" key="GridCell.Tab.0.center/0.0.1536.832@0.0.1536.832" timestamp="1619719118503" />
+    <state width="1493" height="213" key="GridCell.Tab.0.left" timestamp="1619719118503">
       <screen x="0" y="0" width="1536" height="832" />
     </state>
-    <state width="1493" height="213" key="GridCell.Tab.0.left/0.0.1536.832@0.0.1536.832" timestamp="1619510405553" />
-    <state width="1493" height="213" key="GridCell.Tab.0.right" timestamp="1619510405553">
+    <state width="1493" height="213" key="GridCell.Tab.0.left/0.0.1536.832@0.0.1536.832" timestamp="1619719118503" />
+    <state width="1493" height="213" key="GridCell.Tab.0.right" timestamp="1619719118503">
       <screen x="0" y="0" width="1536" height="832" />
     </state>
-    <state width="1493" height="213" key="GridCell.Tab.0.right/0.0.1536.832@0.0.1536.832" timestamp="1619510405553" />
+    <state width="1493" height="213" key="GridCell.Tab.0.right/0.0.1536.832@0.0.1536.832" timestamp="1619719118503" />
     <state width="189" height="457" key="HiddenNamespacesPopup" timestamp="1619507837127">
       <screen x="0" y="0" width="1536" height="832" />
     </state>
@@ -208,10 +366,10 @@
       <screen x="0" y="0" width="1536" height="832" />
     </state>
     <state x="481" y="133" key="MultipleFileMergeDialog/0.0.1536.832@0.0.1536.832" timestamp="1619519352314" />
-    <state x="277" y="59" key="SettingsEditor" timestamp="1619515546357">
+    <state x="277" y="59" key="SettingsEditor" timestamp="1619719108246">
       <screen x="0" y="0" width="1536" height="832" />
     </state>
-    <state x="277" y="59" key="SettingsEditor/0.0.1536.832@0.0.1536.832" timestamp="1619515546357" />
+    <state x="277" y="59" key="SettingsEditor/0.0.1536.832@0.0.1536.832" timestamp="1619719108246" />
     <state x="361" y="150" key="Vcs.Push.Dialog.v2" timestamp="1619519727615">
       <screen x="0" y="0" width="1536" height="832" />
     </state>

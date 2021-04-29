@@ -1,25 +1,18 @@
-"""musicApp URL Configuration
+from django.urls import path
+from . import views
 
-The `urlpatterns` list routes URLs to views. For more information please see:
-    https://docs.djangoproject.com/en/3.1/topics/http/urls/
-Examples:
-Function views
-    1. Add an import:  from my_app import views
-    2. Add a URL to urlpatterns:  path('', views.home, name='home')
-Class-based views
-    1. Add an import:  from other_app.views import Home
-    2. Add a URL to urlpatterns:  path('', Home.as_view(), name='home')
-Including another URLconf
-    1. Import the include() function: from django.urls import include, path
-    2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
-"""
-from django.contrib import admin
-from django.urls import path, include
-from django.conf.urls.static import static
-from django.conf import settings
-
+# Add URLConf
 urlpatterns = [
-    path('admin/', admin.site.urls),
-    path('', include('mainapp.urls')),
-    path('', include('django.contrib.auth.urls')),
+    path('', views.index, name='index'),
+    path('<int:song_id>/', views.detail, name='detail'),
+    path('mymusic/', views.my_music, name='my_music'),
+    path('playlist/', views.playlist, name='playlist'),
+    path('playlist/<str:playlist_name>/', views.playlist_songs, name='playlist_songs'),
+    path('favourite/', views.favourite, name='favourite'),
+    path('all_songs/', views.all_songs, name='all_songs'),
+    path('pop/', views.pop_music, name='pop_music'),
+    path('rock/', views.rock_music, name='rock_music'),
+
+    
+
 ]
