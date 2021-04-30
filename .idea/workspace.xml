@@ -1,7 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="05956ac9-7a52-4193-ba0d-b35d46503f72" name="Default Changelist" comment="" />
+    <list default="true" id="05956ac9-7a52-4193-ba0d-b35d46503f72" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/musicApp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/musicApp.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/musicApp/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/musicApp/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/musicApp/authentication/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/musicApp/authentication/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/musicApp/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/musicApp/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/musicApp/musicApp/migrations/0002_playlist.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/musicApp/musicApp/migrations/0003_favourite.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/musicApp/musicApp/migrations/0004_recent.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/musicApp/musicApp/migrations/0005_auto_20200712_1306.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/musicApp/musicApp/migrations/0006_auto_20210429_2335.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/musicApp/musicplayer/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/musicApp/musicplayer/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/musicApp/musicplayer/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/musicApp/musicplayer/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/musicApp/templates/musicapp/english_songs.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/musicApp/templates/musicapp/hindi_songs.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/musicApp/templates/musicapp/recent.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/musicApp/website_images/Detail.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/musicApp/website_images/Home.png" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,25 +35,37 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="ProjectId" id="1rr4WiOgG5TuRKEXvUW0GrE0a4B" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/musicApp/musicplayer/settings.py" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.django.DjangoModulesConfigurable" />
   </component>
   <component name="RunManager">
-    <configuration default="true" type="Python.DjangoServer" factoryName="Django server">
+    <configuration name="Unnamed" type="Python.DjangoServer" factoryName="Django server" nameIsGenerated="true">
+      <module name="musicApp" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="musicplayer.settings" />
       </envs>
-      <option name="SDK_HOME" value="" />
+      <option name="SDK_HOME" value="C:\Users\HP Omen 15\AppData\Local\Programs\Python\Python38-32\python.exe" />
       <option name="WORKING_DIRECTORY" value="" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="" />
       <option name="launchJavascriptDebuger" value="false" />
       <option name="port" value="8000" />
       <option name="host" value="" />
@@ -62,20 +94,72 @@
     <configuration />
   </component>
   <component name="TaskManager">
+    <task id="LOCAL-00001" summary="Merged bug-daulet to main">
+      <created>1619720792501</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1619720792501</updated>
+    </task>
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="05956ac9-7a52-4193-ba0d-b35d46503f72" name="Default Changelist" comment="" />
+      <created>1619720907921</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1619720907921</updated>
+      <workItem from="1619720912475" duration="488000" />
+      <workItem from="1619753548087" duration="937000" />
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Merged bug-daulet to main" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merged bug-daulet to main" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="223" y="72" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1619720512785">
+    <state x="223" y="72" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1619721006364">
       <screen x="0" y="0" width="1536" height="832" />
     </state>
-    <state x="223" y="72" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.832@0.0.1536.832" timestamp="1619720512785" />
+    <state x="223" y="72" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.832@0.0.1536.832" timestamp="1619721006364" />
+    <state x="393" y="11" key="CommitChangelistDialog2" timestamp="1619753898355">
+      <screen x="0" y="0" width="1536" height="832" />
+    </state>
+    <state x="393" y="11" key="CommitChangelistDialog2/0.0.1536.832@0.0.1536.832" timestamp="1619753898355" />
+    <state x="549" y="159" key="FileChooserDialogImpl" timestamp="1619720997326">
+      <screen x="0" y="0" width="1536" height="832" />
+    </state>
+    <state x="549" y="159" key="FileChooserDialogImpl/0.0.1536.832@0.0.1536.832" timestamp="1619720997326" />
+    <state width="1493" height="213" key="GridCell.Tab.0.bottom" timestamp="1619754583175">
+      <screen x="0" y="0" width="1536" height="832" />
+    </state>
+    <state width="1493" height="213" key="GridCell.Tab.0.bottom/0.0.1536.832@0.0.1536.832" timestamp="1619754583175" />
+    <state width="1493" height="213" key="GridCell.Tab.0.center" timestamp="1619754583175">
+      <screen x="0" y="0" width="1536" height="832" />
+    </state>
+    <state width="1493" height="213" key="GridCell.Tab.0.center/0.0.1536.832@0.0.1536.832" timestamp="1619754583175" />
+    <state width="1493" height="213" key="GridCell.Tab.0.left" timestamp="1619754583175">
+      <screen x="0" y="0" width="1536" height="832" />
+    </state>
+    <state width="1493" height="213" key="GridCell.Tab.0.left/0.0.1536.832@0.0.1536.832" timestamp="1619754583175" />
+    <state width="1493" height="213" key="GridCell.Tab.0.right" timestamp="1619754583175">
+      <screen x="0" y="0" width="1536" height="832" />
+    </state>
+    <state width="1493" height="213" key="GridCell.Tab.0.right/0.0.1536.832@0.0.1536.832" timestamp="1619754583175" />
     <state x="481" y="133" key="MultipleFileMergeDialog" timestamp="1619720478672">
       <screen x="0" y="0" width="1536" height="832" />
     </state>
     <state x="481" y="133" key="MultipleFileMergeDialog/0.0.1536.832@0.0.1536.832" timestamp="1619720478672" />
-    <state x="277" y="60" key="SettingsEditor" timestamp="1619720691799">
+    <state x="277" y="60" key="SettingsEditor" timestamp="1619721001005">
       <screen x="0" y="0" width="1536" height="832" />
     </state>
-    <state x="277" y="60" key="SettingsEditor/0.0.1536.832@0.0.1536.832" timestamp="1619720691799" />
+    <state x="277" y="60" key="SettingsEditor/0.0.1536.832@0.0.1536.832" timestamp="1619721001005" />
+    <state x="361" y="150" key="Vcs.Push.Dialog.v2" timestamp="1619720802351">
+      <screen x="0" y="0" width="1536" height="832" />
+    </state>
+    <state x="361" y="150" key="Vcs.Push.Dialog.v2/0.0.1536.832@0.0.1536.832" timestamp="1619720802351" />
   </component>
 </project>
