@@ -12,7 +12,7 @@ urlpatterns = [
     path('all_songs/', views.all_songs, name='all_songs'),
     path('pop/', views.pop_music, name='pop_music'),
     path('rock/', views.rock_music, name='rock_music'),
-
+    path('profile/', views.profile, name='profile'),
     
 
 ]

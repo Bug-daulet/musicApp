@@ -3,6 +3,7 @@ from .models import *
 from django.db.models import Q
 from django.contrib import messages
 from django.contrib.auth.decorators import login_required
+from .forms import *
 
 
 # Create your views here.
@@ -125,11 +126,21 @@ def search_by_music_info(request):
         return redirect("index:search_success", text=searching_text)
     else:
         return render(request, "musicapp/search.html",
-                    {"empty_res":"There is no song with such information"})
+                    {"empty_res": "There is no song with such information"})
 
 
 def search_success(request, text):
     if len(text)>0:
         search_res = Song.objects.filter(name__search=text, singer__search=text)
-        return render(request, "news/search.html",
-                {"search_res":search_res,"empty_res":"There is no article"} )
+        return render(request, "musicapp/search.html",
+                {"search_res": search_res, "empty_res": "There is no such song"})
+
+
+def profile(request):
+    user_email = request.user.username
+    if request.method == "POST":
+        new_pass = request.POST.get("new_pass")
+        u = User.objects.get(username=request.user.username)
+        u.set_password(new_pass)
+        u.save()
+    return render(request, "musicapp/profile.html", {"user_email": user_email})
