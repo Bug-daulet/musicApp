@@ -47,7 +47,7 @@ INSTALLED_APPS = [
 
     'crispy_forms',
     'authentication.apps.AuthenticationConfig',
-    'musicapp.apps.MusicappConfig',
+    'musicApp.apps.MusicappConfig',
 ]
 
 MIDDLEWARE = [
@@ -112,7 +112,7 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGE_CODE = 'en-us'
 
-TIME_ZONE = 'Asia/Kolkata'
+TIME_ZONE = 'Asia/Almaty'
 
 USE_I18N = True
 

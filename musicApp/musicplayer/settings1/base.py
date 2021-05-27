@@ -26,7 +26,7 @@ INSTALLED_APPS = [
     
     # apps
     'authentication.apps.AuthenticationConfig',
-    'musicapp.apps.MusicappConfig',
+    'musicApp.apps.MusicappConfig',
 ]
 
 MIDDLEWARE = [
