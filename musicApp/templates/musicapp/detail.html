@@ -41,7 +41,11 @@
                     <h3 class="product-title">{{songs.name}}</h3>
                     <h6>Album: {{songs.album}}</h6>
                     <h6>Singer: {{songs.singer}}</h6>
+                    <h6>Release Year: {{songs.year}}</h6>
                     <br>
+                    <!-- <audio controls>
+                        <source src="{{ songs.song_file.url }}" type="audio/mpeg">
+                    </audio>   -->
 
                     <form method="post">
                         {% csrf_token %}
@@ -93,13 +97,17 @@
                         {% csrf_token %}
                         {% if is_favourite %}
                         <span class="d-flex align-items-center mt-2 ml-2">
+                            <!-- <i class="heart fa fa-heart my-auto"></i> -->
                             <button type="submit" name="rm-fav" class="btn btn-danger btn-block"
                                 style="width: 358px;margin-left:-8px;background-color: red;">Remove from Favourites</button>
                         </span>
                         {% else %}
                         <span class="d-flex align-items-center mt-2 ml-2">
+                            <!-- <i class="heart fa fa-heart my-auto"></i> -->
                             <button type="submit" name="add-fav" class="btn btn-danger btn-block"
                                 style="width: 358px;margin-left:-8px;background-color: red;"><i class="heart fa fa-heart-o my-auto" style="color:white"></i> Add to Favourites</button>
+
+                            <!-- <input type="submit" id="favbtn" class="btn btn-primary" name="add-fav" value="Add to Favourites"> -->
                         </span>
 
                         {% endif %}
@@ -112,6 +120,24 @@
         </div>
     </div>
 </div>
+
+<footer class="footer">
+    <div class="player" style="padding-left: 10px;padding-top:10px;background-color: #459dfb;">
+        <div class="left"><img src="{{last_played.song_img.url}}" height="90" width="90"
+                style="border-radius: 10px 10px 10px 10px;"></div>
+        <div class="right">
+            <div class="top">
+                <a class="song" style="margin-left: 15px;color: white;">{{last_played.name}}</a>
+                <a class="artist" style="margin-left: 15px;color:white">{{last_played.album}}</a>
+            </div>
+            <div class="bottom">
+                <audio controls="" _autoplay="" name="media"
+                    style="margin-left: 20px;margin-bottom: 10px;width: 1245px;height:30px">
+                    <source src="{{last_played.song_file.url}}" type="audio/mpeg"></audio>
+            </div>
+        </div>
+    </div>
+</footer>
 
 {% endblock body %}
 
