@@ -3,19 +3,19 @@ from django.contrib.auth.models import User
 
 
 # Create your models here.
-
-
 class Song(models.Model):
 
-    genre_type = (
-        ('pop', 'pop'),
-        ('rock', 'rock'),
-    )
+    Genre_Choice = (
+            ('Pop', 'Pop'),
+            ('Rock', 'Rock'),
+
+          )
 
     name = models.CharField(max_length=200)
     album = models.CharField(max_length=200)
+    genre = models.CharField(max_length=20, choices=Genre_Choice, default='Pop')
     song_img = models.FileField()
-    genre = models.CharField(max_length=20,choices=genre_type,default='pop')
+    year = models.IntegerField()
     singer = models.CharField(max_length=200)
     song_file = models.FileField()
 
@@ -30,7 +30,12 @@ class Playlist(models.Model):
 
 
 class Favourite(models.Model):
+    id = models.AutoField(primary_key=True)
     user = models.ForeignKey(User, on_delete=models.CASCADE)
     song = models.ForeignKey(Song, on_delete=models.CASCADE)
     is_fav = models.BooleanField(default=False)
 
+
+class Recent(models.Model):
+    user = models.ForeignKey(User, on_delete=models.CASCADE)
+    song = models.ForeignKey(Song, on_delete=models.CASCADE)
