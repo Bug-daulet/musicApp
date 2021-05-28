@@ -5,14 +5,20 @@ from . import views
 urlpatterns = [
     path('', views.index, name='index'),
     path('<int:song_id>/', views.detail, name='detail'),
-    path('mymusic/', views.my_music, name='my_music'),
+    path('mymusic/', views.mymusic, name='mymusic'),
     path('playlist/', views.playlist, name='playlist'),
     path('playlist/<str:playlist_name>/', views.playlist_songs, name='playlist_songs'),
     path('favourite/', views.favourite, name='favourite'),
     path('all_songs/', views.all_songs, name='all_songs'),
-    path('pop/', views.pop_music, name='pop_music'),
-    path('rock/', views.rock_music, name='rock_music'),
+    path('recent/', views.recent, name='recent'),
+    path('pop_songs/', views.pop_songs, name='pop_songs'),
+    path('rock_songs/', views.rock_songs, name='rock_songs'),
+    path('play/<int:song_id>/', views.play_song, name='play_song'),
+    path('play_song/<int:song_id>/', views.play_song_index, name='play_song_index'),
+    path('play_recent_song/<int:song_id>/', views.play_recent_song, name='play_recent_song'),
+    path('play_random_song', views.play_random_song, name='play_random_song'),
     path('profile/', views.profile, name='profile'),
+
     
 
 ]
