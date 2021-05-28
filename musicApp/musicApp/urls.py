@@ -18,7 +18,7 @@ urlpatterns = [
     path('play_recent_song/<int:song_id>/', views.play_recent_song, name='play_recent_song'),
     path('play_random_song', views.play_random_song, name='play_random_song'),
     path('profile/', views.profile, name='profile'),
-
-    
+    path('payment/', views.payment, name='payment'),
+    path('charge/', views.charge, name='charge'),
 
 ]

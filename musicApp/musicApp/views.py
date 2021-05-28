@@ -5,6 +5,9 @@ from django.contrib import messages
 from django.contrib.auth.decorators import login_required
 from .forms import *
 import random
+import stripe
+
+stripe.api_key = "sk_test_51Ivv6PLbueGO5tYB8iqFRw1jLpKTZphW9TyXgLOOgt14ROy6sHZ13kLPpQCZXCPlaBBkhgTV9HOZVm2vzgpgND8300Iq7t9Q9g"
 
 
 # Create your views here.
@@ -353,3 +356,29 @@ def profile(request):
         u.set_password(new_pass)
         u.save()
     return render(request, "musicapp/profile.html", {"user_email": user_email})
+
+
+def payment(request):
+
+    return render(request, "musicapp/payment.html")
+
+
+def charge(request):
+
+    if request.method == 'POST':
+        print('Data: ', request.POST)
+
+        customer = stripe.Customer.create(
+            email=request.user.email,
+            name=request.user.first_name,
+            source=request.POST['stripeToken']
+        )
+
+        charge = stripe.Charge.create(
+            customer=customer,
+            amount=100,
+            currency='usd',
+            description='Subscription'
+        )
+
+    return redirect('index')
