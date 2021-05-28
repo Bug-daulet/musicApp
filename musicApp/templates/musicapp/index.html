@@ -154,14 +154,14 @@
 
 
 <footer class="footer">
-    <div class="player" style="padding-left: 10px;padding-top:10px;background-color: #459dfb;">
+    <div class="player" style="display: flex; flex-direction: row; height: 150px; padding-left: 10px;padding-top:10px;background-color: #459dfb;">
       <div class="left"><img src="{{last_played.song_img.url}}" height="90" width="90" style="border-radius: 10px 10px 10px 10px;"></div>
       <div class="right">
-         <div class="top">
+         <div class="top" style="margin-top: 10px">
             <a class="song" style="margin-left: 15px;color: white;">{{last_played.name}}</a>
             <a class="artist" style="margin-left: 15px;color:white">{{last_played.album}}</a>
          </div>
-         <div class="bottom">
+         <div class="bottom" style="margin-top: 10px">
           {% if first_time %}
             <audio controls=""  name="media" style="margin-left: 20px;margin-bottom: 10px;width: 1230px;height:30px"><source src="{{last_played.song_file.url}}" type="audio/mpeg" ></audio>
               {% else %}
