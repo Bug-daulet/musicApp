@@ -6,7 +6,7 @@ from django.db import migrations, models
 class Migration(migrations.Migration):
 
     dependencies = [
-        ('musicapp', '0004_recent'),
+        ('musicApp', '0004_recent'),
     ]
 
     operations = [

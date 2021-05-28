@@ -9,7 +9,7 @@ class Migration(migrations.Migration):
 
     dependencies = [
         migrations.swappable_dependency(settings.AUTH_USER_MODEL),
-        ('musicapp', '0002_playlist'),
+        ('musicApp', '0002_playlist'),
     ]
 
     operations = [
@@ -18,7 +18,7 @@ class Migration(migrations.Migration):
             fields=[
                 ('id', models.AutoField(primary_key=True, serialize=False)),
                 ('is_fav', models.BooleanField(default=False)),
-                ('song', models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, to='musicapp.Song')),
+                ('song', models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, to='musicApp.Song')),
                 ('user', models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, to=settings.AUTH_USER_MODEL)),
             ],
         ),

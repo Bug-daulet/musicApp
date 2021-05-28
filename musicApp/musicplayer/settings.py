@@ -47,7 +47,7 @@ INSTALLED_APPS = [
 
     'crispy_forms',
     'authentication.apps.AuthenticationConfig',
-    'musicapp.apps.MusicappConfig',
+    'musicApp.apps.MusicappConfig',
 ]
 
 MIDDLEWARE = [
