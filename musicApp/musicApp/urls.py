@@ -20,5 +20,5 @@ urlpatterns = [
     path('profile/', views.profile, name='profile'),
     path('payment/', views.payment, name='payment'),
     path('charge/', views.charge, name='charge'),
-
+    path('popular_songs/', views.liked_music, name='liked_songs'),
 ]

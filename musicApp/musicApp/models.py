@@ -39,3 +39,10 @@ class Favourite(models.Model):
 class Recent(models.Model):
     user = models.ForeignKey(User, on_delete=models.CASCADE)
     song = models.ForeignKey(Song, on_delete=models.CASCADE)
+
+
+class Comments(models.Model):
+    user = models.ForeignKey(User, on_delete=models.CASCADE)
+    song = models.ForeignKey(Song, on_delete=models.CASCADE)
+    comment = models.CharField(max_length=200)
+    date = models.DateTimeField(auto_now_add=True)

@@ -141,6 +141,7 @@
             <div class="collapse navbar-collapse">
                 <a href="{% url 'index' %}" class="btn btn-outline-light mt-2 mx-1">HOME</a>
                 <a href="{% url 'all_songs' %}" class="btn btn-outline-light mt-2 mx-1">ALL SONGS</a>
+                <a href="{% url 'liked_songs' %}" class="btn btn-outline-light mt-2 mx-1">LIKED SONGS</a>
                 {% if request.user.is_active %}
                 <a href="{% url 'play_random_song' %}" class="btn btn-outline-light mt-2 mx-1">RANDOM SONG</a>
                 <div class="btn-group mt-2 mx-1">
@@ -154,7 +155,7 @@
                         <a class="dropdown-item" href="{% url 'favourite' %}">Favourite Songs</a>
                     </div>
                 </div>
-                <a type="button" href="{% url 'profile' %}" class="btn btn-outline-light">PROFILE</a>
+                <a href="{% url 'profile' %}" class="btn btn-outline-light mt-2 mx-1">PROFILE</a>
                 {% endif %}
             </div>
             

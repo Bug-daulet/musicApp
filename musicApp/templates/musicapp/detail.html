@@ -121,21 +121,60 @@
     </div>
 </div>
 
-<footer class="footer">
-    <div class="player" style="padding-left: 10px;padding-top:10px;background-color: #459dfb;">
-        <div class="left"><img src="{{last_played.song_img.url}}" height="90" width="90"
-                style="border-radius: 10px 10px 10px 10px;"></div>
-        <div class="right">
-            <div class="top">
-                <a class="song" style="margin-left: 15px;color: white;">{{last_played.name}}</a>
-                <a class="artist" style="margin-left: 15px;color:white">{{last_played.album}}</a>
+<br>
+
+    <div class="container">
+    <div class="card">
+        <div class="container-fliud">
+            <div class="wrapper row">
+                <div class="preview col-md-2">
+                </div>
+                <div class="preview col-md-8 m-5">
+                    <form method="post">
+                        {% csrf_token %}
+                        <textarea name="commentContent" class="form-control" placeholder="Comment"></textarea><br>
+                    <div class="row">
+                        <div class="col-sm-12 form-group">
+                            <button name="comment" class="btn btn-default pull-right" type="submit">Send</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
             </div>
-            <div class="bottom">
-                <audio controls="" _autoplay="" name="media"
-                    style="margin-left: 20px;margin-bottom: 10px;width: 1245px;height:30px">
-                    <source src="{{last_played.song_file.url}}" type="audio/mpeg"></audio>
+            <div class="container d-flex justify-content-center flex-column">
+            {%  if comments %}
+            {% for comment in comments %}
+            <ul>
+                <li>
+                    <b>{{ comment.user }}</b> left this comment {{ comment.date }}
+                </li>
+                <p><i>{{ comment.comment }}</i></p>
+            </ul>
+            {% endfor %}
+            {% else %}
+                <p>No comments on this article yet</p>
+            {% endif %}
             </div>
         </div>
+    </div>
+</div>
+
+<footer class="footer">
+    <div class="player" style="display: flex; flex-direction: row; height: 150px; padding-left: 10px;padding-top:10px;background-color: #459dfb;">
+      <div class="left"><img src="{{last_played.song_img.url}}" height="90" width="90" style="border-radius: 10px 10px 10px 10px;"></div>
+      <div class="right">
+         <div class="top" style="margin-top: 10px">
+            <a class="song" style="margin-left: 15px;color: white;">{{last_played.name}}</a>
+            <a class="artist" style="margin-left: 15px;color:white">{{last_played.album}}</a>
+         </div>
+         <div class="bottom" style="margin-top: 10px">
+          {% if first_time %}
+            <audio controls=""  name="media" style="margin-left: 20px;margin-bottom: 10px;width: 1230px;height:30px"><source src="{{last_played.song_file.url}}" type="audio/mpeg" ></audio>
+              {% else %}
+              <audio controls="" autoplay name="media" style="margin-left: 20px;margin-bottom: 10px;width: 1230px;height:30px"><source src="{{last_played.song_file.url}}" type="audio/mpeg" ></audio>
+                {% endif %}
+          </div>
+      </div>
     </div>
 </footer>
 

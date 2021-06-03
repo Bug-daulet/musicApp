@@ -3,6 +3,7 @@ from .models import *
 from django.db.models import Q
 from django.contrib import messages
 from django.contrib.auth.decorators import login_required
+from django.db.models import Count
 from .forms import *
 import random
 import stripe
@@ -267,6 +268,7 @@ def detail(request, song_id):
 
     playlists = Playlist.objects.filter(user=request.user).values('playlist_name').distinct
     is_favourite = Favourite.objects.filter(user=request.user).filter(song=song_id).values('is_fav')
+    comments = Comments.objects.filter(song=song_id).order_by('date').reverse()
 
     if request.method == "POST":
         if 'playlist' in request.POST:
@@ -290,8 +292,13 @@ def detail(request, song_id):
             query.delete()
             messages.success(request, "Removed from favorite!")
             return redirect('detail', song_id=song_id)
+        elif 'comment' in request.POST:
+            commentContent = request.POST["commentContent"]
+            comment = Comments(user=request.user, song=songs, comment=commentContent)
+            comment.save()
+            return redirect('detail', song_id=song_id)
 
-    context = {'songs': songs, 'playlists': playlists, 'is_favourite': is_favourite, 'last_played': last_played_song}
+    context = {'songs': songs, 'playlists': playlists, 'is_favourite': is_favourite, 'last_played': last_played_song, 'comments': comments}
     return render(request, 'musicapp/detail.html', context=context)
 
 
@@ -382,3 +389,11 @@ def charge(request):
         )
 
     return redirect('index')
+
+def liked_music(request):
+    popular_music = Song.objects.filter(favourite__is_fav=True).annotate(count=Count('favourite__song'))\
+        .distinct().order_by('-count')
+    context = {
+        'popular_songs': popular_music,
+    }
+    return render(request, 'musicapp/liked_songs.html', context=context)
