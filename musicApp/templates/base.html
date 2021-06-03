@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
     
-    <!-- <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto+Mono&display=swap" rel="stylesheet"> -->
+    <script src="https://js.stripe.com/v3/"></script>
     <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap" rel="stylesheet"> 
     
     <link href="{% static 'musicapp/css/musicplayer.css' %}" rel="stylesheet">
@@ -137,14 +137,15 @@
     <nav class="navbar navbar-expand-md navbar-primary bg-primary">
         <div class="container">
             <h1><a href="{% url 'index' %}" class="navbar-brand">
-            <strong style="color:white">MUSIC</strong></a></h1>
+            <strong style="color:white">ÄWEN</strong></a></h1>
             <div class="collapse navbar-collapse">
                 <a href="{% url 'index' %}" class="btn btn-outline-light mt-2 mx-1">HOME</a>
                 <a href="{% url 'all_songs' %}" class="btn btn-outline-light mt-2 mx-1">ALL SONGS</a>
+                <a href="{% url 'liked_songs' %}" class="btn btn-outline-light mt-2 mx-1">LIKED SONGS</a>
                 {% if request.user.is_active %}
-                
+                <a href="{% url 'play_random_song' %}" class="btn btn-outline-light mt-2 mx-1">RANDOM SONG</a>
                 <div class="btn-group mt-2 mx-1">
-                    <a type="button" href="{% url 'my_music' %}" class="btn btn-outline-light">MY MUSIC</a>
+                    <a type="button" href="{% url 'mymusic' %}" class="btn btn-outline-light">MY MUSIC</a>
                     <button type="button" class="btn btn-light dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     <span class="sr-only">Toggle Dropdown</span>
                     </button>
@@ -154,7 +155,7 @@
                         <a class="dropdown-item" href="{% url 'favourite' %}">Favourite Songs</a>
                     </div>
                 </div>
-                <a type="button" href="{% url 'profile' %}" class="btn btn-outline-light">PROFILE</a>
+                <a href="{% url 'profile' %}" class="btn btn-outline-light mt-2 mx-1">PROFILE</a>
                 {% endif %}
             </div>
             
@@ -182,7 +183,7 @@
     <br>
     <br>
     
-    <!-- jQuery first, then Bootstrap JS -->
+    <!-- jQuery, Bootstrap -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>

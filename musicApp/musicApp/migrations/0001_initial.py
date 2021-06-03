@@ -31,7 +31,7 @@ class Migration(migrations.Migration):
             fields=[
                 ('id', models.AutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
                 ('playlist_name', models.CharField(max_length=200)),
-                ('song', models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, to='musicapp.Song')),
+                ('song', models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, to='musicApp.Song')),
                 ('user', models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, to=settings.AUTH_USER_MODEL)),
             ],
         ),
@@ -40,7 +40,7 @@ class Migration(migrations.Migration):
             fields=[
                 ('id', models.AutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
                 ('is_fav', models.BooleanField(default=False)),
-                ('song', models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, to='musicapp.Song')),
+                ('song', models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, to='musicApp.Song')),
                 ('user', models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, to=settings.AUTH_USER_MODEL)),
             ],
         ),
