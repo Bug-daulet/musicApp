@@ -5,15 +5,19 @@
 
 {% block body %}
     <div class="container">
-        {% if user_email %}
-            <h5>email: {{ user_email }} </h5>
-            {{ password }}
+        {% if user %}
+            <table>
+                <tr><td><h5>Username: </h5></td> <td><h5>{{ user.username }}</h5></td></tr>
+                <tr><td><h5>First name: </h5></td> <td><h5>{{ user.first_name }}</h5></td></tr>
+                <tr><td><h5>Last name: </h5></td> <td><h5>{{ user.last_name }}</h5></td></tr>
+                <tr><td><h5>Email: </h5></td> <td><h5>{{ user.email }}</h5></td></tr>
+            </table>
             <hr>
-            <h5> Change Password</h5>
+            <h5>Update User</h5>
             <form method="post">
                 {% csrf_token %}
-                <input type="password" name="new_pass">
-                <input class="btn btn-primary" type="submit" value="Change" name="delete"}>
+                {{form|crispy}}
+                <button class="btn btn-primary btn-block" type="submit">Update</button>
             </form>
         {% endif %}
     </div>

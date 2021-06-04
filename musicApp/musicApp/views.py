@@ -298,7 +298,8 @@ def detail(request, song_id):
             comment.save()
             return redirect('detail', song_id=song_id)
 
-    context = {'songs': songs, 'playlists': playlists, 'is_favourite': is_favourite, 'last_played': last_played_song, 'comments': comments}
+    context = {'songs': songs, 'playlists': playlists, 'is_favourite': is_favourite, 'last_played': last_played_song,
+               'comments': comments}
     return render(request, 'musicapp/detail.html', context=context)
 
 
@@ -340,38 +341,40 @@ def favourite(request):
 
 
 def search_by_music_info(request):
-    if request.method == "POST" and len(request.POST.get("search_field"))>0:
+    if request.method == "POST" and len(request.POST.get("search_field")) > 0:
         searching_text = request.POST.get("search_field")
         return redirect("index:search_success", text=searching_text)
     else:
         return render(request, "musicapp/search.html",
-                    {"empty_res": "There is no song with such information"})
+                      {"empty_res": "There is no song with such information"})
 
 
 def search_success(request, text):
-    if len(text)>0:
+    if len(text) > 0:
         search_res = Song.objects.filter(name__search=text, singer__search=text)
         return render(request, "musicapp/search.html",
-                {"search_res": search_res, "empty_res": "There is no such song"})
+                      {"search_res": search_res, "empty_res": "There is no such song"})
 
 
 def profile(request):
-    user_email = request.user.username
+    user = request.user
     if request.method == "POST":
-        new_pass = request.POST.get("new_pass")
-        u = User.objects.get(username=request.user.username)
-        u.set_password(new_pass)
-        u.save()
-    return render(request, "musicapp/profile.html", {"user_email": user_email})
+        form = UpdateForm(request.POST)
+        if form.is_valid():
+            form.save()
+            return redirect('profile')
+    else:
+        form = UpdateForm()
+    return render(request, "musicapp/profile.html", {"form": form, "user": user})
 
 
+@login_required(login_url='login')
 def payment(request):
-
     return render(request, "musicapp/payment.html")
 
 
+@login_required(login_url='login')
 def charge(request):
-
     if request.method == 'POST':
         print('Data: ', request.POST)
 
@@ -390,8 +393,9 @@ def charge(request):
 
     return redirect('index')
 
+
 def liked_music(request):
-    popular_music = Song.objects.filter(favourite__is_fav=True).annotate(count=Count('favourite__song'))\
+    popular_music = Song.objects.filter(favourite__is_fav=True).annotate(count=Count('favourite__song')) \
         .distinct().order_by('-count')
     context = {
         'popular_songs': popular_music,

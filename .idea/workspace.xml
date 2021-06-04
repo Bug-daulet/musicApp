@@ -2,16 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="05956ac9-7a52-4193-ba0d-b35d46503f72" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/musicApp/templates/musicapp/liked_songs.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/musicApp/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/musicApp/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/musicApp/musicApp/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/musicApp/musicApp/forms.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/musicApp/musicApp/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/musicApp/musicApp/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/musicApp/musicApp/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/musicApp/musicApp/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/musicApp/musicApp/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/musicApp/musicApp/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/musicApp/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/musicApp/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/musicApp/templates/musicapp/all_songs.html" beforeDir="false" afterPath="$PROJECT_DIR$/musicApp/templates/musicapp/all_songs.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/musicApp/templates/musicapp/detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/musicApp/templates/musicapp/detail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/musicApp/templates/musicapp/mymusic.html" beforeDir="false" afterPath="$PROJECT_DIR$/musicApp/templates/musicapp/mymusic.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/musicApp/templates/musicapp/payment.html" beforeDir="false" afterPath="$PROJECT_DIR$/musicApp/templates/musicapp/payment.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/musicApp/templates/musicapp/profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/musicApp/templates/musicapp/profile.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -130,7 +128,8 @@
       <workItem from="1622134354661" duration="1390000" />
       <workItem from="1622157319788" duration="1576000" />
       <workItem from="1622473991121" duration="602000" />
-      <workItem from="1622709304576" duration="12399000" />
+      <workItem from="1622709304576" duration="16877000" />
+      <workItem from="1622772062775" duration="4469000" />
     </task>
     <task id="LOCAL-00002" summary="Some insignificant changes">
       <created>1619754662731</created>
@@ -160,29 +159,38 @@
       <option name="project" value="LOCAL" />
       <updated>1622177185773</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Comments and Rate songs (by Adilbek)">
+      <created>1622734256833</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1622734256833</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Merged bug-daulet to main" />
     <MESSAGE value="Some insignificant changes" />
     <MESSAGE value="Profile page added" />
     <MESSAGE value="Some html corrections" />
     <MESSAGE value="Payment" />
-    <option name="LAST_COMMIT_MESSAGE" value="Payment" />
+    <MESSAGE value="Comments and Rate songs (by Adilbek)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Comments and Rate songs (by Adilbek)" />
   </component>
   <component name="WindowStateProjectService">
     <state x="223" y="72" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1622158376136">
       <screen x="0" y="0" width="1536" height="832" />
     </state>
     <state x="223" y="72" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.832@0.0.1536.832" timestamp="1622158376136" />
-    <state x="393" y="11" key="CommitChangelistDialog2" timestamp="1622177184754">
+    <state x="393" y="11" key="CommitChangelistDialog2" timestamp="1622734256145">
       <screen x="0" y="0" width="1536" height="832" />
     </state>
-    <state x="393" y="11" key="CommitChangelistDialog2/0.0.1536.832@0.0.1536.832" timestamp="1622177184754" />
+    <state x="393" y="11" key="CommitChangelistDialog2/0.0.1536.832@0.0.1536.832" timestamp="1622734256145" />
     <state x="503" y="179" key="EnvironmentVariablesDialog" timestamp="1622134949777">
       <screen x="0" y="0" width="1536" height="832" />
     </state>
@@ -191,22 +199,22 @@
       <screen x="0" y="0" width="1536" height="832" />
     </state>
     <state x="549" y="159" key="FileChooserDialogImpl/0.0.1536.832@0.0.1536.832" timestamp="1622710291755" />
-    <state width="1493" height="213" key="GridCell.Tab.0.bottom" timestamp="1622733623425">
+    <state width="1493" height="213" key="GridCell.Tab.0.bottom" timestamp="1622780149081">
       <screen x="0" y="0" width="1536" height="832" />
     </state>
-    <state width="1493" height="213" key="GridCell.Tab.0.bottom/0.0.1536.832@0.0.1536.832" timestamp="1622733623425" />
-    <state width="1493" height="213" key="GridCell.Tab.0.center" timestamp="1622733623425">
+    <state width="1493" height="213" key="GridCell.Tab.0.bottom/0.0.1536.832@0.0.1536.832" timestamp="1622780149081" />
+    <state width="1493" height="213" key="GridCell.Tab.0.center" timestamp="1622780149081">
       <screen x="0" y="0" width="1536" height="832" />
     </state>
-    <state width="1493" height="213" key="GridCell.Tab.0.center/0.0.1536.832@0.0.1536.832" timestamp="1622733623425" />
-    <state width="1493" height="213" key="GridCell.Tab.0.left" timestamp="1622733623425">
+    <state width="1493" height="213" key="GridCell.Tab.0.center/0.0.1536.832@0.0.1536.832" timestamp="1622780149081" />
+    <state width="1493" height="213" key="GridCell.Tab.0.left" timestamp="1622780149081">
       <screen x="0" y="0" width="1536" height="832" />
     </state>
-    <state width="1493" height="213" key="GridCell.Tab.0.left/0.0.1536.832@0.0.1536.832" timestamp="1622733623425" />
-    <state width="1493" height="213" key="GridCell.Tab.0.right" timestamp="1622733623425">
+    <state width="1493" height="213" key="GridCell.Tab.0.left/0.0.1536.832@0.0.1536.832" timestamp="1622780149081" />
+    <state width="1493" height="213" key="GridCell.Tab.0.right" timestamp="1622780149081">
       <screen x="0" y="0" width="1536" height="832" />
     </state>
-    <state width="1493" height="213" key="GridCell.Tab.0.right/0.0.1536.832@0.0.1536.832" timestamp="1622733623425" />
+    <state width="1493" height="213" key="GridCell.Tab.0.right/0.0.1536.832@0.0.1536.832" timestamp="1622780149081" />
     <state x="481" y="133" key="MultipleFileMergeDialog" timestamp="1619720478672">
       <screen x="0" y="0" width="1536" height="832" />
     </state>
@@ -215,14 +223,14 @@
       <screen x="0" y="0" width="1536" height="832" />
     </state>
     <state x="277" y="60" key="SettingsEditor/0.0.1536.832@0.0.1536.832" timestamp="1622158223491" />
-    <state x="361" y="150" key="Vcs.Push.Dialog.v2" timestamp="1622177220164">
+    <state x="361" y="150" key="Vcs.Push.Dialog.v2" timestamp="1622734261329">
       <screen x="0" y="0" width="1536" height="832" />
     </state>
-    <state x="361" y="150" key="Vcs.Push.Dialog.v2/0.0.1536.832@0.0.1536.832" timestamp="1622177220164" />
-    <state x="578" y="334" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1622134641662">
+    <state x="361" y="150" key="Vcs.Push.Dialog.v2/0.0.1536.832@0.0.1536.832" timestamp="1622734261329" />
+    <state x="578" y="334" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1622734485293">
       <screen x="0" y="0" width="1536" height="832" />
     </state>
-    <state x="578" y="334" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.832@0.0.1536.832" timestamp="1622134641662" />
+    <state x="578" y="334" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.832@0.0.1536.832" timestamp="1622734485293" />
     <state x="549" y="130" key="git4idea.branch.GitSmartOperationDialog" timestamp="1622158994782">
       <screen x="0" y="0" width="1536" height="832" />
     </state>

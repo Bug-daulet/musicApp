@@ -6,10 +6,9 @@ from django.contrib.auth.models import User
 class Song(models.Model):
 
     Genre_Choice = (
-            ('Pop', 'Pop'),
-            ('Rock', 'Rock'),
-
-          )
+        ('Pop', 'Pop'),
+        ('Rock', 'Rock'),
+    )
 
     name = models.CharField(max_length=200)
     album = models.CharField(max_length=200)
@@ -46,3 +45,4 @@ class Comments(models.Model):
     song = models.ForeignKey(Song, on_delete=models.CASCADE)
     comment = models.CharField(max_length=200)
     date = models.DateTimeField(auto_now_add=True)
+

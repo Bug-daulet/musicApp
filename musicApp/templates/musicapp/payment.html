@@ -40,11 +40,12 @@
 
     <form action="{% url 'charge' %}" method="post" id="payment-form">
         {% csrf_token %}
-        <div class="form-row">
+        <div class="form-row" style="display: flex; flex-direction: column; padding: 10px;">
+            <h3>Donate</h3>
+            <br>
             <label for="card-element">
                 Credit or debit card
             </label>
-            <br>
             <div id="card-element" style="width: 100%">
                 <!-- A Stripe Element will be inserted here. -->
             </div>
